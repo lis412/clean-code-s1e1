@@ -4,33 +4,40 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .descr {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .descr img {
   width: 100%;
 }
+
 .descr .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .descr { text-align: center;
+  .descr {
+    text-align: center;
   }
 }
+
 .wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .task-row-wrapper {
   display: flex;
 }
@@ -40,10 +47,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
+
 li,
 h3 {
   list-style: none;
 }
+
 input,
 button{
   outline: none;
@@ -59,9 +68,11 @@ button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .section-header {
   color: #333;
@@ -72,6 +83,7 @@ button{
   margin: 0;
   text-transform: uppercase;
 }
+
 .text-input {
   margin: 0;
   font-size: 18px;
@@ -84,6 +96,7 @@ button{
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .text-input:focus {
   color: #333;
 }
@@ -94,9 +107,11 @@ button{
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
+
 .task-row-wrapper>.btn:hover {
   color: #0FC57C;
 }
@@ -111,6 +126,7 @@ button{
   justify-content: space-between;
   align-items: center;
 }
+
 .list-item > * {
   vertical-align: middle;
 }
@@ -118,23 +134,28 @@ button{
 .chk-input {
   margin: 0 10px;
 }
+
 .item-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .list-item > .text-input {
   width: 226px;
 }
+
 .list-item > .btn-delete:hover {
   color: #CF2323;
 }
+
 .delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-img:hover {
   transform: rotateZ(0);
 }
